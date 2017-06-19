@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="scrollColorBtn">
+        <attr name="btnIcon" format="reference|integer" />
+        <attr name="btnColor" format="reference|color" />
+        <attr name="btnText" format="reference|string" />
+        <attr name="btnTextSize" format="reference|dimension" />
+    </declare-styleable>
+
+</resources>
