@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_launch"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+    <com.dingqiqi.qijuproject.view.MarqueeView
+        android:id="@+id/marqueueView"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="测试-》作者:奇 QQ957789074"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_adver"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <View
+            android:id="@+id/line_top"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#989898" />
+
+        <FrameLayout
+            android:id="@+id/fl_ls"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/line_top">
+
+            <com.dingqiqi.qijuproject.view.LoopViewPager
+                android:id="@+id/loopviewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:id="@+id/ll_point_hint"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="0dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/tv_chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0000ff"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.dingqiqi.qijuproject.view.LineChartView
+                android:id="@+id/lineChart"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:orientation="horizontal"
+                android:paddingBottom="2dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_day"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="日视图" />
+
+                <TextView
+                    android:id="@+id/tv_hour"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="时视图" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

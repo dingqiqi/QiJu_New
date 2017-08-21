@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">"奇奇小工具"</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">小提示</string>
+    <string name="app_not_found">应用未找到!</string>
+    <string name="address_test">浦东新区</string>
+    <string name="default_address_city">上海</string>
+    <string name="dialog_loading">加载中...</string>
+
+    <string-array name="main_menu">
+        <item>天气预报,tianqi</item>
+        <item>驾考模拟,jiazhao</item>
+        <item>火车信息,huoche</item>
+        <item>成语大全,chengyu</item>
+        <item>新华字典,zidian</item>
+        <item>拼图游戏,pintu</item>
+        <item>号码归属地,guishudi</item>
+        <item>菜谱大全,caipu</item>
+        <!--<item>邮政编码,youbian</item>-->
+        <item>文章精选,jingxuan</item>
+        <!--<item>周公解梦,jiemeng</item>-->
+        <!--<item>八字算命,suanming</item>-->
+    </string-array>
+
+    <!--拼图游戏-->
+    <string name="dialog_select_image_title">选择获取方式</string>
+    <string name="dialog_select_photo">拍照</string>
+    <string name="dialog_select_image">从相册中选取</string>
+    <string name="dialog_select_level_title">选择游戏难度</string>
+    <string name="dialog_select_level_2_2">2 * 2</string>
+    <string name="dialog_select_level_3_3">3 * 3</string>
+    <string name="dialog_select_level_4_4">4 * 4</string>
+    <string name="dialog_select_level_5_5">5 * 5</string>
+    <string name="update_image">更换图案</string>
+    <string name="update_leve">难度: 3 * 3</string>
+    <string name="query_image">查看图案</string>
+    <string name="activity_count">点击: 0</string>
+    <string name="activity_start_game">开始游戏</string>
+    <string name="activity_time">用时: 00:00</string>
+    <string name="dialog_select_default">原始图案</string>
+</resources>

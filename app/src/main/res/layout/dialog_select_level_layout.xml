@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/dialog_select_level_title"
+        android:textColor="#3397E4"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_level_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="start|center"
+        android:paddingEnd="0dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="0dp"
+        android:paddingStart="24dp"
+        android:text="@string/dialog_select_level_2_2"
+        android:textColor="#404040"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_level_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="start|center"
+        android:paddingEnd="0dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="0dp"
+        android:paddingStart="24dp"
+        android:text="@string/dialog_select_level_3_3"
+        android:textColor="#404040"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_level_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="start|center"
+        android:paddingEnd="0dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="0dp"
+        android:paddingStart="24dp"
+        android:text="@string/dialog_select_level_4_4"
+        android:textColor="#404040"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_level_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="start|center"
+        android:paddingEnd="0dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="0dp"
+        android:paddingStart="24dp"
+        android:text="@string/dialog_select_level_5_5"
+        android:textColor="#404040"
+        android:textSize="14sp" />
+</LinearLayout>
